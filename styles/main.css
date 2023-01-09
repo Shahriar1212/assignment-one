@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image{
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.bg-content{
+    margin-right: 300px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 76px;
+    margin-bottom: 32px;
+}
+.banner-description{
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    color: #444343;
+    line-height: 26px;
+    font-style: normal;
+    margin-bottom: 32px;
+}
+.btn{
+    text-align: right;
+}
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+/* failures section */
+
+
+.failures-section{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    justify-content: space-between;
+}
+.person-image{
+    margin-left: 206px;
+}
+.failures-content{
+    width: 416px;
+    margin-right: 400px;
+}
+.failures-title{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 46px;
+    margin-bottom: 24px;
+}
+.failures-description{
+    font-family: 'Work Sans', sans-serif;
+    width: 416px;
+    height: 104px;
+    color: ##444343;
+    line-height: 26px;
+    font-style: normal;
+    margin-bottom: 32px;
+}
+li{
+    font-family: 'Work Sans', sans-serif;
+    color: ##444343;
+    list-style: none;
+    line-height: 26px;
+}
+
+li:before{
+    content: "\2713";
+    margin-right: 15px;
+    color: #16D887;
+    font-size: 20px;
+}
