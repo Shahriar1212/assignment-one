@@ -210,6 +210,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background: #151414;
+    padding-bottom: 40px;
 }
 .future{
     width: 485px;
@@ -258,12 +259,20 @@ input{
     margin-bottom: 20px;
 }
 
-input[type="email"], textarea {
+input[type="email"] {
 
     background-color : #151414; 
     padding: 15px;
     width: 250px;
     border: 1px solid white;
-    border-radius: 5px;
-  
-  }
+    border-radius: 5px;  
+}
+input::placeholder{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #F3F3F3;
+}
+
